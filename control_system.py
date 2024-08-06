@@ -51,7 +51,7 @@ class MQTTClient:
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
         #mqtt 브로커 연결
-        self.client.connect("broker.hivemq.com",1883)
+        self.client.connect("브로커 주소",1883)
         #비동기적으로 네트워크 루프 시작
         self.client.loop_start()
    
