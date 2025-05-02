@@ -1,0 +1,9 @@
+ Try to load cfg: cfg/yolov4-custom.cfg, weights: ../training/yolov4-custom_best.weights, clear = 0 
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+ Try to load weights: ../training/yolov4-custom_best.weights 
